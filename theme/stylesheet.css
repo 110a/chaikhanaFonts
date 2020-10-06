@@ -92,7 +92,7 @@ p {
 .geo-title {
   font-family: 'BPG-WEB-001-Caps';
 }
-.geo-subtitle, .eng-subtitle, .geo-bold, .eng-bold {
+.geo-subtitle, .eng-subtitle, .geo-bold {
   font-family: 'BPG-WEB-001';
 }
 .geo-body, .azer-body, .eng-body {
@@ -113,7 +113,7 @@ p {
 .azer-title, .eng-title {
   font-family: 'Helvetica';
 }
-.azer-bold {
+.azer-bold, .eng-bold {
   font-family: 'Noto-Sans-bold';
 }
 .red {
