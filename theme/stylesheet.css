@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'BPG-WEB-001-Caps';
+    src: url('BPGWEB001Caps.woff2') format('woff2'),
+        url('BPGWEB001Caps.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial-AMU';
+    src: url('ArialAMU.woff2') format('woff2'),
+        url('ArialAMU.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Arial-AMU-bold';
+    src: url('ArialAMU-Bold.woff2') format('woff2'),
+        url('ArialAMU-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BPG-WEB-001';
+    src: url('BPGWEB001.woff2') format('woff2'),
+        url('BPGWEB001.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans-bold';
+    src: url('NotoSans-Bold.woff2') format('woff2'),
+        url('NotoSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeSans-bold';
+    src: url('FreeSansBold.woff2') format('woff2'),
+        url('FreeSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-Bold.woff2') format('woff2'),
+        url('Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('NotoSans-Regular.woff2') format('woff2'),
+        url('NotoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu-Sans';
+    src: url('DejaVuSans.woff2') format('woff2'),
+        url('DejaVuSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+  margin: 0px;
+  padding: 40px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+.geo-title {
+  font-family: 'BPG-WEB-001-Caps';
+}
+.geo-subtitle, .eng-subtitle, .geo-bold, .eng-bold {
+  font-family: 'BPG-WEB-001';
+}
+.geo-body, .azer-body, .eng-body {
+  font-family: 'Noto-Sans';
+}
+.arm-title {
+  font-family: 'FreeSans-bold';
+}
+.arm-bold {
+  font-family: 'Arial-AMU-bold';
+}
+.arm-subtitle, .azer-subtitle {
+  font-family: 'DejaVu-Sans';
+}
+.arm-body {
+  font-family: 'Arial-AMU';
+}
+.azer-title, .eng-title {
+  font-family: 'Helvetica';
+}
+.azer-bold {
+  font-family: 'Noto-Sans-bold';
+}
+.red {
+  color: red;
+}
